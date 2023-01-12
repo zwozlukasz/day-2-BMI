@@ -21,7 +21,7 @@ def show_message():
   return message
 
 def check_bmi(bmi):
-  if bmi < 16:
+  if bmi < 16.0:
     print("wyglodzenie")
   elif bmi >= 16.0 and bmi < 17.0:
     print("wychodzenie")
